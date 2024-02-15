@@ -1,11 +1,3 @@
-// $.getJSON('http://api.open-notify.org/astros.json', function(data){
-//     var number = data['number'];
-//     $('#spacePeople').html(number);
-
-//     data['people'].forEach(function(d){
-//         $('astroNames').append('<li>' +d['name'] + '<li>');
-//     });
-// });
 
 function displayData() {
     fetch('http://api.open-notify.org/astros.json')
@@ -33,39 +25,5 @@ function displayData() {
 }
 
 displayData();
-
-
-
-// function displayPicture() {
-//     fetch('http://api.open-notify.org/astros.json')
-//     .then(response => response.json())
-//     .then(data => {
-
-//         document.getElementById('picture').textContent = data.title;
-//         document.getElementById('explain').innerHTML = data.explanation;
-//         document.getElementById('img').src = data.hdurl;
-    
-//     })
-// }
-
-// displayPicture();
-
-// function setup() {
-//     createCanvas(windowWidth, windowHeight);
-//     loadJSON('http://api.open-notify.org/astros.json', data);
-// }
-
-
-
-// function data(data1){
-//     for(let i=1; i<data1.number; i++){
-//         fill(random(200), random(200), random(200));
-//         ellipse(30+(200*i), 20+(40*i), 55+(50*i), 20+(60*i));
-//     }
-// }
-
-// function draw(){
-   
-// }
 
  

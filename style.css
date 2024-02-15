@@ -45,13 +45,13 @@ body{
   @keyframes moveUp {
     0%   {right:0px; top:0px;}
     25%  {right:200px; top:0px;}
-    50%  {right:200px; top:200px;}
-    75%  {right:0px; top:200px;}
+    50%  {right:200px; top:180px;}
+    75%  {right:0px; top:180px;}
     100% {right:0px; top:0px;}
   }
 #num1{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 10%;
     padding-bottom: 10%;
     background-color: rgb(55, 55, 218);
@@ -63,8 +63,8 @@ body{
     animation-iteration-count: infinite;
 }
 #num2{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 10%;
     padding-bottom: 10%;
     background-color: plum;
@@ -78,8 +78,8 @@ body{
 }
 
 #num3{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 10%;
     padding-bottom: 10%;
     background-color: rgb(43, 123, 145);
@@ -93,8 +93,8 @@ body{
 }
 
 #num4{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 10%;
     padding-bottom: 10%;
     background-color: rgb(125, 29, 133);
@@ -107,8 +107,8 @@ body{
 }
 
 #num5{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 10%;
     padding-bottom: 10%;
     background-color: rgb(19, 138, 122);
@@ -122,8 +122,8 @@ body{
 }
 
 #num6{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 10%;
     padding-bottom: 10%;
     background-color: rgb(201, 104, 206);
@@ -137,8 +137,8 @@ body{
 }
 
 #num7{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 10%;
     padding-bottom: 10%;
     background-color: rgb(59, 51, 128);
