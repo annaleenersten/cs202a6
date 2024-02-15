@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background-image: url(Galaxy12.jpg);
+    color: white;
+    text-align: center;
+    width: auto;
+    height: 100%;
+    font-size: 2.5vh;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.column{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.row{
+    text-align: center;
+    padding-bottom: 0%;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* #column1{
+    padding-top: 5%;
+}
+#column2{
+    padding-top: 8%;
+}
+#column3{
+    padding-top: 11%;
+} */
+@keyframes move {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+  @keyframes moveUp {
+    0%   {right:0px; top:0px;}
+    25%  {right:200px; top:0px;}
+    50%  {right:200px; top:200px;}
+    75%  {right:0px; top:200px;}
+    100% {right:0px; top:0px;}
+  }
+#num1{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(55, 55, 218);
+    border: 0.25vh solid black;
+    box-shadow: 0.5em 0.5em 0.45em rgba(250, 246, 246, 0.664);
+    position: relative;
+    animation-name: move;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+#num2{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: plum;
+    border: 0.25vh solid black;
+    box-shadow: 0.5em 0.5em 0.45em rgba(250, 246, 246, 0.664);
+    position: relative;
+    animation-name: move;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+#num3{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(43, 123, 145);
+    border: 0.25vh solid black;
+    box-shadow: 0.5em 0.5em 0.45em rgba(250, 246, 246, 0.664);
+    position: relative;
+    animation-name: move;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+#num4{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(125, 29, 133);
+    border: 0.25vh solid black;
+    box-shadow: 0.5em 0.5em 0.45em rgba(250, 246, 246, 0.664);
+    position: relative;
+    animation-name: moveUp;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+#num5{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(19, 138, 122);
+    border: 0.25vh solid black;
+    box-shadow: 0.5em 0.5em 0.45em rgba(250, 246, 246, 0.664);
+    position: relative;
+    animation-name: moveUp;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+#num6{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(201, 104, 206);
+    border: 0.25vh solid black;
+    box-shadow: 0.5em 0.5em 0.45em rgba(250, 246, 246, 0.664);
+    position: relative;
+    animation-name: moveUp;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#num7{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(59, 51, 128);
+    border: 0.25vh solid black;
+    box-shadow: 0.5em 0.5em 0.45em rgba(250, 246, 246, 0.664);
+    position: relative;
+    animation-name: moveUp;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
