@@ -89,7 +89,7 @@ body{
     animation-name: move;
     animation-duration: 12s;
     animation-iteration-count: infinite;
-    animation-direction: reverse;
+    animation-direction: alternate-reverse;
 }
 
 #num4{
@@ -101,8 +101,8 @@ body{
     border: 0.25vh solid black;
     box-shadow: 0.5em 0.5em 0.45em rgba(250, 246, 246, 0.664);
     position: relative;
-    animation-name: moveUp;
-    animation-duration: 12s;
+    animation-name: move;
+    animation-duration: 13s;
     animation-iteration-count: infinite;
 }
 
@@ -116,9 +116,9 @@ body{
     box-shadow: 0.5em 0.5em 0.45em rgba(250, 246, 246, 0.664);
     position: relative;
     animation-name: moveUp;
-    animation-duration: 12s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-direction: reverse;
+    animation-direction: alternate-reverse;
 }
 
 #num6{
@@ -133,7 +133,7 @@ body{
     animation-name: moveUp;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
+    animation-direction: reverse;
 }
 
 #num7{
