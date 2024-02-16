@@ -20,21 +20,6 @@ body{
     padding-bottom: 0%;
 }
   
-  /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/* #column1{
-    padding-top: 5%;
-}
-#column2{
-    padding-top: 8%;
-}
-#column3{
-    padding-top: 11%;
-} */
 @keyframes move {
     0%   {left:0px; top:0px;}
     25%  {left:200px; top:0px;}
